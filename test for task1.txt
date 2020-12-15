@@ -1,0 +1,35 @@
+#first array is z
+#second array is 2^z
+#we tested r = 3,6,9,12
+#It seems that the median estimate is relatively more stable so it might be a good choice
+
+[14, 20, 16]
+[16384, 1048576, 65536]
+r =  3
+the mean estimate is: 376832
+the median estimate is: 65536
+the harmonic mean estimate is: 38836.148148148146
+
+
+[16, 16, 17, 15, 16, 17]
+[65536, 65536, 131072, 32768, 65536, 131072]
+r =  6
+the mean estimate is: 81920
+the median estimate is: 65536.0
+the harmonic mean estimate is: 65536.0
+
+
+[16, 18, 16, 16, 15, 19, 16, 17, 17]
+[65536, 262144, 65536, 65536, 32768, 524288, 65536, 131072, 131072]
+r =  9
+the mean estimate is: 149276.44444444444
+the median estimate is: 65536
+the harmonic mean estimate is: 79976.13559322034
+
+
+[14, 16, 16, 17, 17, 16, 17, 17, 17, 14, 15, 16]
+[16384, 65536, 65536, 131072, 131072, 65536, 131072, 131072, 131072, 16384, 32768, 65536]
+r =  12
+the mean estimate is: 81920
+the median estimate is: 65536.0
+the harmonic mean estimate is: 47662.545454545456

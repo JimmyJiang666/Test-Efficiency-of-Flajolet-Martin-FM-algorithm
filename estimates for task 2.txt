@@ -1,0 +1,11 @@
+estimated #distinct elements for wordStream:  86909.40729676351
+real #distinct elements for wordStream:  75161
+relative error is: 0.15630988540284874
+
+estimated #distinct elements for shingleStream:  2975214.2773463605
+real #distinct elements for wordStream:  2210222
+relative error is: 0.3461155835686915
+
+estimated #distinct elements for numStream :  508598104.122123
+(almost) real #distinct elements for numStream:  499790312
+relative error is: 0.017622974896966397
